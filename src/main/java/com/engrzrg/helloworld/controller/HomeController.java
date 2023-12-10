@@ -10,4 +10,9 @@ public class HomeController {
     public String helloWorld() {
         return "Hello World";
     }
+
+    @GetMapping("/build")
+    public String buildDeploy() {
+        return "This is my first build deployed to tomcat server through jenkins";
+    }
 }
