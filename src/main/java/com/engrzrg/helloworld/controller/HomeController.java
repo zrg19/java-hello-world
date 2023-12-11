@@ -13,6 +13,6 @@ public class HomeController {
 
     @GetMapping("/build")
     public String buildDeploy() {
-        return "This is my first build deployed to tomcat server through jenkins";
+        return "This is my second build deployed to tomcat server through jenkins";
     }
 }
